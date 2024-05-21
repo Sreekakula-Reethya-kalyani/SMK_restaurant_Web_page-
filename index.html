@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Snacks & Chaat</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        #title-section {
+            background-color: plum;
+            padding: 15px;
+            color: black;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        #restaurant-links {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        #menu-introduction {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .menu-item {
+            width: 300px;
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 3px 3px 0px plum ;
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        #owner-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #e0e0e0;
+        }
+
+        #marquee-section {
+            text-align: center;
+            background-color: #333;
+            color: #ffcc00; /* yellow color for scrolling text */
+            padding: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="title-section">
+        <i><h1>SMK Snacks & Chaat</h1></i>
+        <p>Welcome to our delightful world of Home made Foods</p>
+    </div>
+    <div id="menu-introduction">
+        <h2>Our menu items</h2>
+    </div>
+    <div id="menu-section">
+        <div class="menu-item">
+            <img src="veg.jpg" alt="Veg Sandwich">
+            <h2>Veg Sandwich</h2>
+            <p>Combination of fresh vegetables and zesty condiments nestled between soft slices of bread, delivering a burst of flavors in every bite.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="veg cheese.jpg" alt="Veg Cheese Sandwich">
+            <h2>Veg Cheese Sandwich</h2>
+            <p>Fresh vegetables and gooey cheese, grilled to perfection for a taste that melts in your mouth.</p>
+        </div>
+        <div class="menu-item">
+            <img src="corn.jpg"  alt="Veg Corn Sandwich with Cheese">
+            <h2>Veg Corn Sandwich with Cheese</h2>
+            <p>A perfect fusion of sweet corn, veggies, and melted cheese in every bite!</p>
+        </div>
+        <div class="menu-item">
+            <img src="paneer.jpg" alt="Paneer Sandwich">
+            <h2>Paneer Sandwich</h2>
+            <p>Perfect harmony of creamy paneer and fresh veggies nestled between layers of soft bread.</p>
+        </div>
+        <div class="menu-item">
+            <img src="chat.jpg" alt="Chaat (cutlet)">
+            <h2>Chaat (cutlet)</h2>
+            <p>A delightful snack here featuring spicy chickpea curry served with crispy and tangy toppings.</p>
+        </div>
+        <div class="menu-item">
+            <img src="PP.jpg" alt="Panipuri ">
+            <h2>Panipuri </h2>
+            <p>Crispy puris filled with a mixture of spicy, tangy tamarind water, mashed potatoes, chickpeas, and a variety of flavorful chutneys.</p>
+        </div>
+        <div class="menu-item">
+            <img src="PAV BHAJI.jpg" alt="Pav bhaji">
+            <h2>Pav bhaji</h2>
+            <p>Delicious and flavorful Indian street food, consisting of a spicy mashed vegetable blend served with buttery pav (bread).</p>
+        </div>
+        <div class="menu-item">
+            <img src="Maggie.jpg" alt="Maggi">
+            <h2>Maggi</h2>
+            <p>Instant comfort in a bowl, a classic blend of noodles and savory seasoning.</p>
+        </div>
+        <div class="menu-item">
+            <img src="bhel.jpg" alt="Bhel Puri">
+            <h2>Bhel Puri</h2>
+            <p>A delightful  snack bursting with a symphony of flavors, combining puffed rice, vegetables, chutneys, and spices.</p>
+        </div>
+        <div class="menu-item">
+            <img src="FF.jpg" alt="French Fries">
+            <h2>French Fries</h2>
+            <p>Golden and crispy French Fries, a timeless classic that satisfies every crunchy craving with perfection.</p>
+        </div>
+        <div class="menu-item">
+            <img src="BB.jpg" alt="Bread Bajji">
+            <h2>Bread Bajji</h2>
+            <p>A delectable fusion snack featuring slices of bread coated in a spiced gram flour batter, deep-fried to golden perfection.</p>
+        </div>
+        <div class="menu-item">
+            <img src="vad oav.jpg" alt="Vada pav">
+            <h2>Vada pav</h2>
+            <p>A delicious snack delight featuring a spiced potato fritter encased in a soft bun, served with chutneys.</p>
+        </div>
+        <div class="menu-item">
+            <img src="nipat.jpg" alt="Nippat Masala">
+            <h2>Nippat Masala</h2>
+            <p>A flavorful snack, delivering the perfect blend of spices in every bite.</p>
+        </div>
+        <div class="menu-item">
+            <h2>Dahi Panipuri</h2>
+            <img src="d_puri.jpg" alt="BB">
+            <p>Crispy puris filled with tangy tamarind water, spiced potatoes, and yogurt, creating a delightful burst of flavors in every bite.</p>
+        </div>
+        <div class="menu-item">
+            <img src="d_chaat.jpg" alt="BB">
+            <h2>Dahi chaat</h2>
+            <p>A delightful blend of crispy ragda patties topped with yogurt, chutneys, and spices, creating a burst of flavors in every bite.</p>
+        </div>
+
+      
+    </div>
+
+    <div id="owner-section">
+        <h2>Restuarant Information</h2>
+        <p>Owner Name: S.Kishore Kumar</p>
+        <p>Address:Y.M.R Colony , Opp to Vignans Girls Jr College</p>
+        <p>City: Proddatur , Kadapa District</p>
+    </div>
+    <div id="restaurant-links">
+        <h2>Find Us Online</h2>
+        <p>We are available on:</p>
+        <h4>Click here -><a href="https://www.zomato.com/proddatur/smk-snacks-proddatur-locality/order" target="_blank">Zomato</a></h4>
+        <h4>Click here -><a href="https://www.swiggy.com/restaurants/smk-snacks-and-chaat-saikuteer-road-rameswaram-proddatur-428364" target="_blank">Swiggy</a></h4>
+        <h4>Click here  -><a href="https://ayesz.in/"target="_blank">AyesZ</a></h4>
+    </div>
+    <div id="marquee-section">
+        <marquee behavior="scroll" direction="left">Visit our Restuarant for the best snacks and chaat! items that tastes like your home food</marquee>
+    </div>
+
+</body>
+</html>
